@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Weather() {
     const inputRef = useRef();
-    let key = "ddbcd4f4eaa58fdc6236000e53ff1db3";
+    // let key = "ddbcd4f4eaa58fdc6236000e53ff1db3";
     const [data, setData] = useState({})
     let [cityName, setCityName] = useState("mohali");
     let [dataFlag, setDataFlag] = useState(false);
